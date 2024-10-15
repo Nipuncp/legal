@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-13 22:10:20.221613",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "arbitration_no",
+  "district",
+  "sub_district",
+  "taluk",
+  "village",
+  "block",
+  "sy_no",
+  "sy_sub_division_no",
+  "thandaper_no",
+  "column_break_tjzr",
+  "extends",
+  "east",
+  "south",
+  "west",
+  "north"
+ ],
+ "fields": [
+  {
+   "fieldname": "arbitration_no",
+   "fieldtype": "Link",
+   "label": "Arbitration No",
+   "options": "Arbitration"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "sub_district",
+   "fieldtype": "Data",
+   "label": "Sub District"
+  },
+  {
+   "fieldname": "taluk",
+   "fieldtype": "Data",
+   "label": "Taluk"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "block",
+   "fieldtype": "Data",
+   "label": "Block"
+  },
+  {
+   "fieldname": "sy_no",
+   "fieldtype": "Data",
+   "label": "Sy No"
+  },
+  {
+   "fieldname": "sy_sub_division_no",
+   "fieldtype": "Data",
+   "label": "Sy Sub Division No"
+  },
+  {
+   "fieldname": "thandaper_no",
+   "fieldtype": "Data",
+   "label": "Thandaper No"
+  },
+  {
+   "fieldname": "column_break_tjzr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "extends",
+   "fieldtype": "Data",
+   "label": "Extends"
+  },
+  {
+   "fieldname": "east",
+   "fieldtype": "Data",
+   "label": "East"
+  },
+  {
+   "fieldname": "south",
+   "fieldtype": "Data",
+   "label": "South"
+  },
+  {
+   "fieldname": "west",
+   "fieldtype": "Data",
+   "label": "West"
+  },
+  {
+   "fieldname": "north",
+   "fieldtype": "Data",
+   "label": "North"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-13 22:14:03.610372",
+ "modified_by": "Administrator",
+ "module": "Claimspro",
+ "name": "Property Schedule",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

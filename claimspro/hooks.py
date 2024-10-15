@@ -122,13 +122,13 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
+doc_events = {
+ 	"Arbitration": {
+ 		"after_save": "claimspro.claimspro.doctype.arbitration.arbitration.create_sales_order",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-# 	}
-# }
+	}
+}
 
 # Scheduled Tasks
 # ---------------

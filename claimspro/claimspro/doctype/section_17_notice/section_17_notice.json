@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-13 22:04:44.093468",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "arbitration_no",
+  "village_office",
+  "sub_registry_office",
+  "acknowledgement_date",
+  "column_break_qctj",
+  "acknowledgement_received_at_sender_date",
+  "acknowledgement_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "arbitration_no",
+   "fieldtype": "Link",
+   "label": "Arbitration No",
+   "options": "Arbitration"
+  },
+  {
+   "fieldname": "acknowledgement_date",
+   "fieldtype": "Date",
+   "label": "Acknowledgement Date"
+  },
+  {
+   "fieldname": "acknowledgement_received_at_sender_date",
+   "fieldtype": "Date",
+   "label": "Acknowledgement Received at Sender Date"
+  },
+  {
+   "fieldname": "acknowledgement_status",
+   "fieldtype": "Select",
+   "label": "Acknowledgement Status",
+   "options": "Received\nRejected\nNot Received"
+  },
+  {
+   "fieldname": "village_office",
+   "fieldtype": "Data",
+   "label": "Village Office"
+  },
+  {
+   "fieldname": "sub_registry_office",
+   "fieldtype": "Data",
+   "label": "Sub Registry Office"
+  },
+  {
+   "fieldname": "column_break_qctj",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-13 22:09:10.431659",
+ "modified_by": "Administrator",
+ "module": "Claimspro",
+ "name": "Section 17 Notice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

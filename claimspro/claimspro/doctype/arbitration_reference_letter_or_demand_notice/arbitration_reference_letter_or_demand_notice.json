@@ -1,0 +1,281 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-22 05:34:53.844463",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_details_tab",
+  "section_break_t6uw",
+  "amended_from",
+  "customer",
+  "loan_account_no",
+  "emi_date",
+  "total_outstanding",
+  "person__to_contact",
+  "no_of_unpaid_emi",
+  "column_break_fusg",
+  "loan_type",
+  "client_address",
+  "loan_status",
+  "loan_amount",
+  "pending_emi",
+  "contact_persons_no",
+  "total_no_of_emi",
+  "loan_agreement_date",
+  "loan_member_data_section",
+  "loan_member",
+  "vehicle_details_section",
+  "vehicle_number",
+  "chassis_no",
+  "column_break_nlox",
+  "model",
+  "engine_number",
+  "sale_details_section",
+  "sale_date",
+  "loss_on_sale",
+  "column_break_wnht",
+  "sale_value",
+  "acknowledgement_data_tab",
+  "notice_acknowledgement_date",
+  "acknowledgement_date",
+  "column_break_puyk",
+  "acknowledgement_status",
+  "acknowledgement_received",
+  "arbitrator_tab",
+  "arbitrator_name",
+  "arbitrator_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Loan Details"
+  },
+  {
+   "fieldname": "section_break_t6uw",
+   "fieldtype": "Section Break",
+   "label": "Primary Loan Information"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Lawyer Notice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer"
+  },
+  {
+   "fieldname": "loan_account_no",
+   "fieldtype": "Data",
+   "label": "Loan Account No"
+  },
+  {
+   "fieldname": "emi_date",
+   "fieldtype": "Date",
+   "label": "EMI Date"
+  },
+  {
+   "fieldname": "total_outstanding",
+   "fieldtype": "Float",
+   "label": "Total Outstanding"
+  },
+  {
+   "fieldname": "person__to_contact",
+   "fieldtype": "Data",
+   "label": "Person  to Contact"
+  },
+  {
+   "fieldname": "no_of_unpaid_emi",
+   "fieldtype": "Int",
+   "label": "No of Unpaid EMI"
+  },
+  {
+   "fieldname": "column_break_fusg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loan_type",
+   "fieldtype": "Select",
+   "label": "Loan Type",
+   "options": "Auto Loan\nMicro Finance\nTraders Loan\nVehicle Loan\nGold Loan"
+  },
+  {
+   "fieldname": "loan_status",
+   "fieldtype": "Select",
+   "label": "Loan Status",
+   "options": "Active\nLoss on Sale"
+  },
+  {
+   "fieldname": "loan_amount",
+   "fieldtype": "Float",
+   "label": "Loan Amount",
+   "precision": "3"
+  },
+  {
+   "fieldname": "pending_emi",
+   "fieldtype": "Int",
+   "label": "Pending EMI"
+  },
+  {
+   "fieldname": "contact_persons_no",
+   "fieldtype": "Data",
+   "label": "Contact Person's No"
+  },
+  {
+   "fieldname": "total_no_of_emi",
+   "fieldtype": "Int",
+   "label": "Total No of EMI"
+  },
+  {
+   "fieldname": "loan_agreement_date",
+   "fieldtype": "Date",
+   "label": "Loan Agreement Date"
+  },
+  {
+   "fieldname": "loan_member_data_section",
+   "fieldtype": "Section Break",
+   "label": "Loan Member Data"
+  },
+  {
+   "fieldname": "loan_member",
+   "fieldtype": "Table",
+   "label": "loan member",
+   "options": "Loan Member"
+  },
+  {
+   "fieldname": "vehicle_details_section",
+   "fieldtype": "Section Break",
+   "label": "Vehicle Details"
+  },
+  {
+   "fieldname": "vehicle_number",
+   "fieldtype": "Data",
+   "label": "Vehicle Number"
+  },
+  {
+   "fieldname": "chassis_no",
+   "fieldtype": "Data",
+   "label": "Chassis No"
+  },
+  {
+   "fieldname": "column_break_nlox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "engine_number",
+   "fieldtype": "Data",
+   "label": "Engine Number"
+  },
+  {
+   "fieldname": "sale_details_section",
+   "fieldtype": "Section Break",
+   "label": "Sale Details"
+  },
+  {
+   "fieldname": "sale_date",
+   "fieldtype": "Date",
+   "label": "Sale Date"
+  },
+  {
+   "fieldname": "loss_on_sale",
+   "fieldtype": "Float",
+   "label": "Loss on Sale"
+  },
+  {
+   "fieldname": "column_break_wnht",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sale_value",
+   "fieldtype": "Float",
+   "label": "Sale Value"
+  },
+  {
+   "fieldname": "acknowledgement_data_tab",
+   "fieldtype": "Tab Break",
+   "label": "Acknowledgement Data"
+  },
+  {
+   "fieldname": "notice_acknowledgement_date",
+   "fieldtype": "Date",
+   "label": "Notice Acknowledgement Date"
+  },
+  {
+   "fieldname": "acknowledgement_date",
+   "fieldtype": "Date",
+   "label": "Acknowledgement Date"
+  },
+  {
+   "fieldname": "column_break_puyk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acknowledgement_status",
+   "fieldtype": "Select",
+   "label": "Acknowledgement Status"
+  },
+  {
+   "fieldname": "acknowledgement_received",
+   "fieldtype": "Date",
+   "label": "Acknowledgement Received "
+  },
+  {
+   "fieldname": "client_address",
+   "fieldtype": "Data",
+   "label": "Client address"
+  },
+  {
+   "fieldname": "arbitrator_tab",
+   "fieldtype": "Tab Break",
+   "label": "Arbitrator"
+  },
+  {
+   "fieldname": "arbitrator_name",
+   "fieldtype": "Data",
+   "label": "Arbitrator Name"
+  },
+  {
+   "fieldname": "arbitrator_address",
+   "fieldtype": "Data",
+   "label": "Arbitrator Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-09 05:09:48.753247",
+ "modified_by": "Administrator",
+ "module": "Claimspro",
+ "name": "Arbitration Reference Letter or Demand Notice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
